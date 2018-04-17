@@ -32,8 +32,8 @@ class DetailViewController: UIViewController {
         webView.loadHTMLString(str, baseURL: nil)
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            self.timer = Timer.scheduledTimer(withTimeInterval: 0.02, repeats: true) { [weak self] timer in
-                self?.webView.scrollView.contentOffset.y += 0.3
+            self.timer = Timer.scheduledTimer(withTimeInterval: 0.02, repeats: true) { timer in
+                self.webView.scrollView.contentOffset.y += 0.3
             }
         }
     }

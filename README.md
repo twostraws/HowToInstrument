@@ -9,3 +9,5 @@ As new tutorials are published I'll link them below. Questions? Comments? [Tweet
 ## Tutorials
 
 1. [How to find and fix slow drawing using Instruments](https://www.hackingwithswift.com/articles/79/how-to-find-and-fix-slow-drawing-using-instruments)
+2. [How to find and fix memory leaks using Instruments](https://www.hackingwithswift.com/articles/80/how-to-find-and-fix-memory-leaks-using-instruments)
+3. [How to find and fix slow code using Instruments](https://www.hackingwithswift.com/articles/81/how-to-find-and-fix-slow-code-using-instruments)
